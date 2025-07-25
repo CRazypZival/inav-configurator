@@ -36,6 +36,13 @@ const BleDevices = [
         writeCharateristic: '00001001-0000-1000-8000-00805f9b34fb', 
         readCharateristic:  '00001002-0000-1000-8000-00805f9b34fb',
         delay:              0,
+    },
+    {
+        name: "CADDX",
+        serviceUuid:        '0000cad0-0000-1000-8000-00805f9b34fb',
+        writeCharateristic: '0000cad1-0000-1000-8000-00805f9b34fb', 
+        readCharateristic:  '0000cad2-0000-1000-8000-00805f9b34fb',
+        delay:              0,
     }
 ];
 
